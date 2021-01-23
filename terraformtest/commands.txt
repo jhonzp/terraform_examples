@@ -1,0 +1,16 @@
+terraform console
+> var.myvar
+> var.mymap.mykey
+> var.mymap["mykey"]
+> var.mylist[0]
+> element(var.mylist, 0)
+> slice(var.mylist, 0, 2)
+
+
+terraform init
+var.AMIS[var.AWS_REGION]
+
+terraform apply
+terraform destroy
+terraform plan
+terraform plan -out out.terraform
