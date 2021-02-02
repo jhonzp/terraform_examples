@@ -1,0 +1,5 @@
+
+ssh-keygen -f mykey
+
+ssh 52.IP.XXXXX -l ubuntu -i mykey
+ssh 34.240.148.86 -l ubuntu -i mykey
